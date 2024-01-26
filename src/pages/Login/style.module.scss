@@ -1,0 +1,47 @@
+@import '../../styles/base.scss';
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cardRegister {
+  padding: 24px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  background-color: $color-white;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border-radius: 15px;
+}
+
+.registerBtn {
+  margin: 24px auto;
+  padding: 10px;
+  width: 50%;
+  background-color: $color-blue;
+  color: $color-white;
+  font-weight: 700;
+  font-size: large;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.noAccount {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 100;
+  display: inline;
+}
+
+.linkRegister {
+  font-size: 18px;
+  font-weight: 900;
+  text-decoration: underline;
+  cursor: pointer;
+}

@@ -1,0 +1,42 @@
+@import '../../../styles/base.scss';
+
+.iconProfile {
+  content: url('../../../../public/user.svg');
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
+}
+
+.iconJourney {
+  content: url('../../../../public/write.svg');
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
+}
+
+.iconJourney {
+  content: url('../../../../public/write.svg');
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
+}
+
+.iconBookmark {
+  content: url('../../../../public/bookmark.svg');
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
+}
+
+.iconLogout {
+  content: url('../../../../public/logout.svg');
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
+}
+
+.menuName {
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 1em;
+}
